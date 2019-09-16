@@ -1,0 +1,43 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  margin-top: 50vh;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  align-items: center;
+  padding: 10px;
+  width: 40px;
+  border: 1px black solid;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+kbd {
+  font-size: 1.5rem;
+}
+
+.sound {
+  font-variant-caps: small-caps;
+  color: darkred;
+}
+
+.key:hover {
+  border: 1px goldenrod solid;
+  cursor: pointer;
+  overflow: hidden;
+}
