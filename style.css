@@ -23,9 +23,17 @@ body {
   margin: 15px;
   align-items: center;
   padding: 10px;
-  width: 40px;
+  transition: all 0.07s;
+  width: 60px;
+  height: 60px;
   border: 1px black solid;
   background-color: rgba(255, 255, 255, 0.75);
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: goldenrod;
+  box-shadow: 0 0 10px goldenrod;
 }
 
 kbd {
@@ -35,10 +43,4 @@ kbd {
 .sound {
   font-variant-caps: small-caps;
   color: darkred;
-}
-
-.key:hover {
-  border: 1px goldenrod solid;
-  cursor: pointer;
-  overflow: hidden;
 }
